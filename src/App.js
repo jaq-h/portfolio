@@ -1,5 +1,7 @@
 import React from 'react';
 import Projects from './containers/Projects.js'
+import FractalDesign from './containers/FractalDesign.js';
+
 import About from './containers/About.js'
 import Home from './containers/Home.js'
 import MenuBar from './components/MenuBar.js'
@@ -17,6 +19,7 @@ function App() {
       <Route exact path="/" component={() => ( <Home/> )} />
       <Route exact path="/projects" component={() => ( <Projects/> )} />
       <Route exact path="/about" component={() => ( <About/> )} />
+      <Route exact path="/fractal-design" component={() => ( <FractalDesign/> )} />
 
     </div>
   );

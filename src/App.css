@@ -86,9 +86,10 @@ img{
 
 .desc{
   color:rgb(65, 148, 175);
-  padding: .8em;
-  margin: .5em;
+  padding: .1em;
+  margin: auto;
   text-decoration: none;
+  max-width: 800px;
 
 }
 
@@ -226,7 +227,7 @@ and (max-width : 375px) {
   margin:auto;
   padding-top:5px;
   padding-bottom:10px;
-  /* z-index: 2; */
+  z-index: 2;
   background-color: #181a1b;
   position: fixed;
   width:100%;
