@@ -21,6 +21,7 @@ hr{
   opacity: 80%;
   line-height: 5px;
   margin: 5px 25px;
+  z-index: 1;
 }
 
 .nav{
@@ -34,6 +35,15 @@ hr{
 }
 .ui.button{
   margin:.3em;
+}
+.ui.dropdown .menu .selected.item, .ui.dropdown.selected {
+  background: lightblue;
+
+
+}
+.ui.dropdown .menu>.item {
+  background: lightblue;
+
 }
 .nav-button{
   /* padding: 1em .1em; */

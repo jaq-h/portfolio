@@ -50,7 +50,7 @@ export class MenuBar extends Component {
                    
                     text='Resumé'
                 />
-                <Button className='nav-button' icon labelPosition='left' href='https://www.github.com/jaq-h'>
+                <Button className='nav-button' icon labelPosition='left' href='https://www.linkedin.com/in/jaq-h/'>
                     <Icon name='linkedin' />LinkedIn
                 </Button>
                 </span>

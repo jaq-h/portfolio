@@ -7,7 +7,7 @@ export class Home extends Component {
                 
                 <a >
                     <span>
-                        <a className='title'></a> 
+                        <a className='title'>Home</a> 
                     </span>
                    
                </a>
