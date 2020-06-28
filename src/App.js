@@ -1,7 +1,6 @@
 import React from 'react';
 import Projects from './containers/Projects.js'
 import FractalDesign from './containers/FractalDesign.js';
-
 import About from './containers/About.js'
 import Home from './containers/Home.js'
 import MenuBar from './components/MenuBar.js'

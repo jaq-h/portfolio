@@ -3,12 +3,12 @@ import {  Button, Icon, Dropdown } from 'semantic-ui-react'
 export class MenuBar extends Component {
     
     render() {
-        const projects = [
-            { key: 'all', text: 'All', value: 'all', href:'/projects' },
-            { key: 'mesh', text: 'Mesh Media Player', value: 'mesh', href:'/mesh-media' },
-            { key: 'fractal', text: 'Fractal Design', value: 'fractal', href:'/fractal-design' },
-            { key: 'tube', text: 'Tuber Runner', value: 'tube-runner', href:'/tube-runner' },
-        ];
+        // const projects = [
+        //     { key: 'all', text: 'All', value: 'all', href:'/projects' },
+        //     { key: 'mesh', text: 'Mesh Media Player', value: 'mesh', href:'/mesh-media' },
+        //     { key: 'fractal', text: 'Fractal Design', value: 'fractal', href:'/fractal-design' },
+        //     { key: 'tube', text: 'Tuber Runner', value: 'tube-runner', href:'/tube-runner' },
+        // ];
         const resumes = [
             { key: 'word', text: 'Word Doc', value: 'word', href:'/' },
             { key: 'pdf', text: 'PDF', value: 'pdf', href:'/' },
@@ -33,7 +33,7 @@ export class MenuBar extends Component {
                     floating
                     labeled
                     icon='code'
-                    options={projects}
+                    // options={projects}
                    
                     text='Projects'
                 />
