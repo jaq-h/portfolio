@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {   Icon, } from 'semantic-ui-react'
+import {   Button, Icon, } from 'semantic-ui-react'
 export class Projects extends Component {
     render() {
         return (
@@ -14,27 +14,49 @@ export class Projects extends Component {
                     </span> 
                     <hr/>
                 </div>
-                    <a className='desc' href='https://github.com/jaq-h/mesh'> 
-                        <h2> <Icon name='github' />App Repository  </h2> 
-                    </a>
-                    <h1 className='title'>Video Demo:</h1> 
-                    <iframe width="800" height="500" src="https://www.youtube.com/embed/UqTkVGYnRwI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen='true'></iframe>
-                      
-                    <h1 className='title'>Technologies Used:</h1>
-                    <h2 className='desc'>  
-                        <i class="icon-javascript">JavaScript </i>&nbsp;&nbsp;
-                        <i class="icon-reactjs"> React.js </i> &nbsp;&nbsp;  
-                        <i> <Icon name='edit'/>Semantic UI &nbsp;&nbsp;</i>
-                        <i class="icon-npm"> NPM </i>   &nbsp;&nbsp;
-                        <i class="icon-ruby-on-rails-alt">Ruby on Rails</i>   &nbsp;&nbsp;
-                        <i class="icon-postgres"> PostgreSQL</i>   &nbsp;&nbsp;
-                        <i class="icon-heroku"> Heroku </i>   &nbsp;&nbsp;
-                        <i class="icon-jquery"> jQuery</i>   &nbsp;&nbsp;
-                        <i><Icon name='spotify'/>Spotify SDK/Web API &nbsp;&nbsp; </i>
-                        <i> <Icon name='youtube'/>YouTube API&nbsp;&nbsp; </i> 
-                    </h2>
-                    <span>&nbsp;&nbsp;</span>
-                    <span>&nbsp;&nbsp;</span>
+                <Button className='git-button' icon labelPosition='left' href='https://github.com/jaq-h/mesh'>
+                    <Icon name='github' />App Repository 
+                </Button>
+                <h1 className='title'>Video Demo:</h1> 
+                <iframe width="800" height="500" src="https://www.youtube.com/embed/UqTkVGYnRwI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen='true'></iframe>
+                    
+                <h1 className='title'>Technologies Used:</h1>
+                <h2 className='desc'>
+                    <Button className='tech-button' icon labelPosition='left'>
+                        <Icon className="icon-javascript"/>JavaScript
+                    </Button>  
+                    <Button className='tech-button' icon labelPosition='left'>
+                        <Icon className="icon-reactjs"/> React.js
+                    </Button>  
+                    <Button className='tech-button' icon labelPosition='left'>
+                        <Icon name='edit'/>Semantic UI
+                    </Button> 
+                    <Button className='tech-button' icon labelPosition='left'>
+                        <Icon name='icon-npm'/> NPM
+                    </Button>
+                    <Button className='tech-button' icon labelPosition='left'>
+                        <Icon name='icon-ruby-on-rails-alt'/>Ruby on Rails
+                    </Button>
+                    <Button className='tech-button' icon labelPosition='left'>
+                        <Icon name='icon-postgres'/> PostgreSQL
+                    </Button>
+                    <Button className='tech-button' icon labelPosition='left'>
+                        <Icon name='icon-heroku'/> Heroku
+                    </Button>
+                    <Button className='tech-button' icon labelPosition='left'>
+                        <Icon name='icon-jquery'/> jQuery
+                    </Button>
+                    <Button className='tech-button' icon labelPosition='left'>
+                    <Icon name='spotify'/>Spotify SDK/Web API
+                    </Button>
+                    <Button className='tech-button' icon labelPosition='left'>
+                    <Icon name='youtube'/>YouTube API
+                    </Button>
+                    
+    
+                </h2>
+                <span>&nbsp;&nbsp;</span>
+                <span>&nbsp;&nbsp;</span>
 
                </a>
                {/* FRACTAL  */}
@@ -45,23 +67,41 @@ export class Projects extends Component {
                     <h2 className='desc'>Customize your own fractal animation with different colors and effects! </h2>
                     <hr/>
                 </div>
-                    <a className='desc' href='https://github.com/jaq-h/fractal-design'> 
-                        <h2> <Icon name='github' />App Repository  </h2> 
-                    </a>
-                    <a href="https://fractal-design.now.sh/">
-                        <h1 className='title'> <Icon name='share'/>Live Demo:</h1>
-                        <img src="https://gdurl.com/S8Wp" alt="Preview"/>
-                    </a> 
-                    <h1 className='title'>Technologies Used:</h1>
-                    <h2 className='desc'>  
-                        <i class="icon-javascript">JavaScript </i>&nbsp;&nbsp;
-                        <i class="icon-reactjs"> React.js </i> &nbsp;&nbsp;     
-                        <i>  <Icon name='asterisk'/>p5.js &nbsp;&nbsp;</i>
-                        <i> <Icon name='edit'/>Semantic UI &nbsp;&nbsp;</i>
-                        <i>  <Icon name='sliders horizontal'/>Material UI &nbsp;&nbsp;</i>
-                        <i class="icon-npm"> NPM </i>   &nbsp;&nbsp;
+                <h2>
+                <Button className='git-button' icon labelPosition='left' href='https://github.com/jaq-h/fractal-design'>
+                    <Icon name='github' />App Repository 
+                </Button>
+                <Button className='git-button' icon labelPosition='left' href='https://fractal-design.now.sh/'>
+                    <Icon name='share' />Live Demo
+                </Button>
+
+                </h2>
+                
+                <a href="https://fractal-design.now.sh/">
+                    <img src="https://gdurl.com/S8Wp" alt="Preview"/>
+                </a> 
+                <h1 className='title'>Technologies Used:</h1>
+                <h2 className='desc'>
+                    <Button className='tech-button' icon labelPosition='left'>
+                        <Icon className="icon-javascript"/>JavaScript
+                    </Button>  
+                    <Button className='tech-button' icon labelPosition='left'>
+                        <Icon className="icon-reactjs"/> React.js
+                    </Button>  
+                    <Button className='tech-button' icon labelPosition='left'>
+                        <Icon name='asterisk'/>p5.js
+                    </Button>
+                    <Button className='tech-button' icon labelPosition='left'>
+                        <Icon name='edit'/>Semantic UI
+                    </Button> 
+                    <Button className='tech-button' icon labelPosition='left'>
+                        <Icon name='sliders horizontal'/>Material UI
+                    </Button> 
+                    <Button className='tech-button' icon labelPosition='left'>
+                        <Icon name='icon-npm'/> NPM
+                    </Button>
                     
-                    </h2>
+                </h2>
                    
                     
                </a>
@@ -77,20 +117,30 @@ export class Projects extends Component {
                         <h2 className='desc'> How far can you make it through space time? </h2>
                         <hr/>
                    </div>
-                    
-                    <a className='desc' href='https://github.com/jaq-h/tube-runner'> 
-                        <h2> <Icon name='github' />Front End Repository  </h2> 
-                    </a>
+                   <Button className='git-button' icon labelPosition='left' href='https://github.com/jaq-h/tube-runner'>
+                        <Icon name='github' />Front End Repository
+                    </Button>
                     {/* <img src="https://gdurl.com/S8Wp" alt="Demo"/> */}
                     <h1 className='title'>Technologies Used:</h1>
                     <h2 className='desc'>  
-                        <i class="icon-javascript">JavaScript </i>&nbsp;&nbsp;
-                        <i class="icon-reactjs"> React.js </i> &nbsp;&nbsp;  
-                        <i>  <Icon name='asterisk'/>p5.js &nbsp;&nbsp;</i>
-                        <i class="icon-npm"> NPM </i>   &nbsp;&nbsp;
-                        <i class="icon-ruby-on-rails-alt">Ruby on Rails</i>   &nbsp;&nbsp;
-                        <i class="icon-postgres"> PostgreSQL</i>   &nbsp;&nbsp;
-                        <i class="icon-heroku"> Heroku </i>   &nbsp;&nbsp;
+                    <Button className='tech-button' icon labelPosition='left'>
+                        <Icon className="icon-javascript"/>JavaScript
+                    </Button>  
+                    <Button className='tech-button' icon labelPosition='left'>
+                        <Icon className="icon-reactjs"/> React.js
+                    </Button>  
+                    <Button className='tech-button' icon labelPosition='left'>
+                        <Icon name='asterisk'/>p5.js
+                    </Button>
+                    <Button className='tech-button' icon labelPosition='left'>
+                        <Icon name='icon-npm'/> NPM
+                    </Button>
+                    <Button className='tech-button' icon labelPosition='left'>
+                        <Icon name='icon-ruby-on-rails-alt'/>Ruby on Rails
+                    </Button>
+                    <Button className='tech-button' icon labelPosition='left'>
+                        <Icon name='icon-postgres'/> PostgreSQL
+                    </Button>
                     </h2>
                    
                </a>
