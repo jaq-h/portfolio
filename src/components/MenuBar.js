@@ -27,7 +27,7 @@ export class MenuBar extends Component {
                 <Button className='nav-button' icon labelPosition='left' href='/about'>
                     <Icon name='address card' />About
                 </Button>
-                <Dropdown
+                {/* <Dropdown
                     button
                     className='icon'
                     floating
@@ -36,7 +36,10 @@ export class MenuBar extends Component {
                     // options={projects}
                    
                     text='Projects'
-                />
+                /> */}
+                <Button className='nav-button' icon labelPosition='left' href='/projects'>
+                    <Icon name='code' />Projects
+                </Button>
                 <Button className='nav-button' icon labelPosition='left' href='https://github.com/jaq-h'>
                    <Icon name='github' />GitHub
                </Button>
