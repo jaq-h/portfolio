@@ -71,13 +71,24 @@ hr{
   background: rgb(65, 148, 175);
 
 }
-.tech-button{
+.ui.label{
   color: #923ba3;
+  background-color: rgb(41, 44, 46);
+  padding: .78571429em .78571429em .78571429em;
+  margin: .3em;
+  text-align: center;
+  display: inline-block;  
+  font-size: 1rem;
+  position: relative;
+
+    vertical-align: center;
+    /* line-height: 1em; */
+
 }
 
 
 i.icon{
-  font-size:25px;
+  font-size: 25px;
 }
 a.menu-title{
  

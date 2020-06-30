@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {   Button, Icon, } from 'semantic-ui-react'
+import {   Label,Button, Icon, } from 'semantic-ui-react'
 export class Projects extends Component {
     render() {
         return (
@@ -22,36 +22,30 @@ export class Projects extends Component {
                     
                 <h1 className='title'>Technologies Used:</h1>
                 <h2 className='desc'>
-                    <Button className='tech-button' icon labelPosition='left'>
+                    <Label  className='ui label' icon labelPosition='left'>
                         <Icon className="icon-javascript"/>JavaScript
-                    </Button>  
-                    <Button className='tech-button' icon labelPosition='left'>
+                    </Label>  
+                    <Label  className='ui label' icon labelPosition='left'>
                         <Icon className="icon-reactjs"/> React.js
-                    </Button>  
-                    <Button className='tech-button' icon labelPosition='left'>
-                        <Icon name='edit'/>Semantic UI
-                    </Button> 
-                    <Button className='tech-button' icon labelPosition='left'>
-                        <Icon name='icon-npm'/> NPM
-                    </Button>
-                    <Button className='tech-button' icon labelPosition='left'>
-                        <Icon name='icon-ruby-on-rails-alt'/>Ruby on Rails
-                    </Button>
-                    <Button className='tech-button' icon labelPosition='left'>
+                    </Label>  
+                    <Label  className='ui label' icon labelPosition='left'>
+                        <Icon name='edit'/>Semantic UI   
+                    </Label>
+                    <Label  className='ui label' icon labelPosition='left'>
                         <Icon name='icon-postgres'/> PostgreSQL
-                    </Button>
-                    <Button className='tech-button' icon labelPosition='left'>
+                    </Label>
+                    <Label  className='ui label' icon labelPosition='left'>
                         <Icon name='icon-heroku'/> Heroku
-                    </Button>
-                    <Button className='tech-button' icon labelPosition='left'>
+                    </Label>
+                    <Label  className='ui label' icon labelPosition='left'>
                         <Icon name='icon-jquery'/> jQuery
-                    </Button>
-                    <Button className='tech-button' icon labelPosition='left'>
-                    <Icon name='spotify'/>Spotify SDK/Web API
-                    </Button>
-                    <Button className='tech-button' icon labelPosition='left'>
-                    <Icon name='youtube'/>YouTube API
-                    </Button>
+                    </Label>
+                    <Label  className='ui label' icon labelPosition='left'>
+                        <Icon name='spotify'/>Spotify SDK/Web API
+                    </Label>
+                    <Label  className='ui label' icon labelPosition='left'>
+                        <Icon name='youtube'/>YouTube API
+                    </Label>
                     
     
                 </h2>
@@ -82,24 +76,24 @@ export class Projects extends Component {
                 </a> 
                 <h1 className='title'>Technologies Used:</h1>
                 <h2 className='desc'>
-                    <Button className='tech-button' icon labelPosition='left'>
+                    <Label  className='ui label' icon labelPosition='left'>
                         <Icon className="icon-javascript"/>JavaScript
-                    </Button>  
-                    <Button className='tech-button' icon labelPosition='left'>
+                    </Label>  
+                    <Label  className='ui label' icon labelPosition='left'>
                         <Icon className="icon-reactjs"/> React.js
-                    </Button>  
-                    <Button className='tech-button' icon labelPosition='left'>
+                    </Label>  
+                    <Label  className='ui label' icon labelPosition='left'>
                         <Icon name='asterisk'/>p5.js
-                    </Button>
-                    <Button className='tech-button' icon labelPosition='left'>
+                    </Label>
+                    <Label  className='ui label' icon labelPosition='left'>
                         <Icon name='edit'/>Semantic UI
-                    </Button> 
-                    <Button className='tech-button' icon labelPosition='left'>
+                    </Label> 
+                    <Label  className='ui label' icon labelPosition='left'>
                         <Icon name='sliders horizontal'/>Material UI
-                    </Button> 
-                    <Button className='tech-button' icon labelPosition='left'>
+                    </Label> 
+                    <Label  className='ui label' icon labelPosition='left'>
                         <Icon name='icon-npm'/> NPM
-                    </Button>
+                    </Label>
                     
                 </h2>
                    
@@ -123,24 +117,24 @@ export class Projects extends Component {
                     {/* <img src="https://gdurl.com/S8Wp" alt="Demo"/> */}
                     <h1 className='title'>Technologies Used:</h1>
                     <h2 className='desc'>  
-                    <Button className='tech-button' icon labelPosition='left'>
+                    <Label  className='ui label' icon labelPosition='left'>
                         <Icon className="icon-javascript"/>JavaScript
-                    </Button>  
-                    <Button className='tech-button' icon labelPosition='left'>
+                    </Label>  
+                    <Label  className='ui label' icon labelPosition='left'>
                         <Icon className="icon-reactjs"/> React.js
-                    </Button>  
-                    <Button className='tech-button' icon labelPosition='left'>
+                    </Label>  
+                    <Label  className='ui label' icon labelPosition='left'>
                         <Icon name='asterisk'/>p5.js
-                    </Button>
-                    <Button className='tech-button' icon labelPosition='left'>
+                    </Label>
+                    <Label  className='ui label' icon labelPosition='left'>
                         <Icon name='icon-npm'/> NPM
-                    </Button>
-                    <Button className='tech-button' icon labelPosition='left'>
+                    </Label>
+                    <Label  className='ui label' icon labelPosition='left'>
                         <Icon name='icon-ruby-on-rails-alt'/>Ruby on Rails
-                    </Button>
-                    <Button className='tech-button' icon labelPosition='left'>
+                    </Label>
+                    <Label  className='ui label' icon labelPosition='left'>
                         <Icon name='icon-postgres'/> PostgreSQL
-                    </Button>
+                    </Label>
                     </h2>
                    
                </a>
