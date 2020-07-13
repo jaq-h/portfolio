@@ -18,7 +18,7 @@ export class Projects extends Component {
                     <Icon name='github' />App Repository 
                 </Button>
                 <h1 className='title'>Video Demo:</h1> 
-                <iframe width="800" height="500" src="https://www.youtube.com/embed/UqTkVGYnRwI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen='true'></iframe>
+                <iframe width="800" height="500" src="https://www.youtube.com/embed/Sa8ZyKYzW3k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen='true'></iframe>
                     
                 <h1 className='title'>Technologies Used:</h1>
                 <h2 className='desc'>
@@ -124,7 +124,7 @@ export class Projects extends Component {
                         <Icon className="icon-reactjs"/> React.js
                     </Label>  
                     <Label  className='ui label' icon labelPosition='left'>
-                        <Icon name='asterisk'/>p5.js
+                    <Icon name='paint brush'/>Three.js
                     </Label>
                     <Label  className='ui label' icon labelPosition='left'>
                         <Icon name='icon-npm'/> NPM

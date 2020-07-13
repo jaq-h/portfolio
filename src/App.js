@@ -15,9 +15,9 @@ function App() {
       <header className="App-header">
        <MenuBar> </MenuBar>
       </header>
-      <Route exact path="/" component={() => ( <Home/> )} />
+      <Route exact path="/" component={() => ( <About/> )} />
       <Route exact path="/projects" component={() => ( <Projects/> )} />
-      <Route exact path="/about" component={() => ( <About/> )} />
+      {/* <Route exact path="/about" component={() => ( <About/> )} /> */}
       <Route exact path="/fractal-design" component={() => ( <FractalDesign/> )} />
 
     </div>

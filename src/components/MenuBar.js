@@ -10,23 +10,23 @@ export class MenuBar extends Component {
         //     { key: 'tube', text: 'Tuber Runner', value: 'tube-runner', href:'/tube-runner' },
         // ];
         const resumes = [
-            { key: 'word', text: 'Word Doc', value: 'word', href:'/' },
-            { key: 'pdf', text: 'PDF', value: 'pdf', href:'/' },
+            { key: 'word', text: 'Word Doc', value: 'word', href:'https://gdurl.com/tfhp' },
+            { key: 'pdf', text: 'PDF', value: 'pdf', href:'https://gdurl.com/yLXp' },
         ];
         return (
             <div className='menu'  >
                 <span className='profile'>
                 <img className='avatar' src='https://gdurl.com/J9Cp' alt=""/>
 
-                 <a className='menu-title'>
+                 <a className='menu-title' href='/'>
                    Jacques Hebert
                 </a>
                 </span>
                    {/* <br></br> */}
                <span className='nav'>
-                <Button className='nav-button' icon labelPosition='left' href='/about'>
+                {/* <Button className='nav-button' icon labelPosition='left' href='/about'>
                     <Icon name='address card' />About
-                </Button>
+                </Button> */}
                 {/* <Dropdown
                     button
                     className='icon'
