@@ -9,7 +9,7 @@ export class About extends Component {
                     <span>
                         <h1 className='title'>About</h1> 
                     </span>
-                    <hr/>
+                    <hr></hr>
 
                     <p style= {{color:'rgb(65, 148, 175)'}}>
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Full Stack Software Engineer with a background in computer science and 5 years of object-oriented programming experience. I have always been fascinated with how things worked from classical mechanics to new technology. At a young age, I would take (or break) things apart to explore what was inside. I built my first computer when I was 16 and started learning Java as my first programming language. Experience with digital art and motion design drove my interest in multi-media and user interaction while building web-app projects. I am looking forward to a role providing creative problem solving and am interested in developing applications involving music, digital art, multimedia, infotainment, automotive, and/or gaming products. I am hoping to work with a close-knit team at a company that strives to innovate the way we use technology.
