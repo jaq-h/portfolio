@@ -103,6 +103,32 @@ export class Projects extends Component {
                     <span>&nbsp;&nbsp;</span>
                     <span>&nbsp;&nbsp;</span>
                     <span>&nbsp;&nbsp;</span>
+                    {/* Priority Queue  */}
+               <a>
+                   <div className='project-header'>
+                        <hr/>
+                        <h1 className='title'> <Icon name='hospital'/>Priority Queue<Icon name='user md'/></h1> 
+                        <h2 className='desc'> Who's next in line? </h2>
+                        <hr/>
+                   </div>
+                   <h2>
+                   <Button className='git-button' icon labelPosition='left' href='https://github.com/jaq-h/priorityQueue'>
+                        <Icon name='github'/>Project Repository
+                    </Button>
+
+                   </h2>
+                   
+                    <a href="https://github.com/jaq-h/priorityQueue/">
+                        <img src="https://gdurl.com/6xvK" alt="Graph"/>
+                    </a> 
+                    <h1 className='title'>Technologies Used:</h1>
+                    <h2 className='desc'>  
+                    <Label  className='ui label' icon labelPosition='left'>
+                        <Icon className="asterisk"/>C++
+                    </Label>  
+                    </h2>
+                   
+               </a>
                 {/* TUBE RUNNER  */}
                <a>
                    <div className='project-header'>
